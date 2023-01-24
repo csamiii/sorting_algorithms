@@ -2,7 +2,7 @@
 #define SORT_H
 
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 
 /**
@@ -24,6 +24,7 @@ typedef enum bool
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
+
 typedef struct listint_s
 {
 	const int n;
